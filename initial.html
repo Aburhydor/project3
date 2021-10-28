@@ -42,7 +42,7 @@
     <button id="btl"> <a href="index.html">Start Over</a>   </button>
 </center>
     <script>
-        if(localStorage.getItem('myBat').value>localStorage.getItem('myIni').value){
+        if(localStorage.getItem('myBat')>localStorage.getItem('myIni')){
             document.getElementById('play5').innerHTML+=localStorage.getItem('myBat');
             document.getElementById('play6').innerHTML+=localStorage.getItem('myIni');
             document.getElementById('play3').innerHTML+=localStorage.getItem('myResult');
