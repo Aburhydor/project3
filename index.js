@@ -36,9 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
             parseInt(`${data.followers}`) +
             parseInt(`${data.following}`) +
             parseInt(`${data.public_repos}`) / 2;
+          valueSender();
+           batResult();
         }
-        valueSender();
-        batResult();
+        
       })
 
       .catch((e) => {
