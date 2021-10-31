@@ -56,6 +56,12 @@
         document.getElementById('play3').innerHTML +=
           localStorage.getItem('myValue');
       }
+      
+       var resetResult = 0;
+      localStorage.setItem('myResult', resetResult);
+      localStorage.setItem('myValue', resetResult);
+      localStorage.setItem('myBat', resetResult);
+      localStorage.setItem('myIni', resetResult);
     </script>
   </body>
 </html>
