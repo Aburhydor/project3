@@ -37,7 +37,7 @@
       <button id="btl"><a href="index.html">Start Over</a></button>
     </center>
     <script>
-      if (localStorage.getItem('myBat') > localStorage.getItem('myIni')) {
+      if (localStorage.getItem('myBat') < localStorage.getItem('myIni')) {
         document.getElementById('play5').innerHTML +=
           localStorage.getItem('myBat');
         document.getElementById('play6').innerHTML +=
